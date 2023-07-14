@@ -1,0 +1,120 @@
+/* nav ul li.active{
+    border-left: 3px solid #27316e;
+    background: linear-gradient(to right, #0016362c, #20283ec7);
+} */
+.username{
+    color: #27316e;
+}
+#bg-sews
+{
+    background-color: #27316e;
+}
+#text-sews
+{
+    color: #27316e;
+}
+/* ---------------------- */
+.box{
+    position: relative;
+    outline: none;
+    overflow: hidden;
+    width: auto;
+    height: 150px;
+    cursor: pointer;
+    background-color: #fff;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-left-color: #27316e;
+}
+.box .category_name{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    margin: 0 -22%;
+    transition: .6s ease;
+}
+.box:hover .category_name{
+    top: -100px;
+}
+.box .desc{
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    text-align: center;
+    margin: 0;
+    transition: .5s ease;
+}
+.box:hover .desc{
+    top: 5%;
+    /* opacity: 0; */
+}
+/* ---------------------------------- */
+.radioOrCheckbox{
+    border: none;
+    outline: none;
+}
+.radioOrCheckbox:checked{
+    background-color: #00c271;
+}
+
+.radioOrCheckbox:checked + label {
+    color: #00c271;
+    font-weight: bold;
+}
+.inpOption{
+    transition: .5s ease;
+    cursor: pointer;
+    background-color: #dbdbdb;
+}
+
+.inpOption:hover{
+    background-color: #27316e;
+    color: #fff;
+}
+/* ------------------------ */
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 1085px;
+    /* left: 0; */
+}
+/* ------------------------------- */
+.timer_span{
+    background-color: #d0ffec;
+    color: #000;
+    opacity: 0.8;
+    padding: 8px 12px;
+    border-radius: 18px;
+}
+/* ---------------------------------------- */
+#logout{
+    position: absolute;
+    bottom: 10px;
+}
+/* -------------------- */
+.box1, .box2, .box3, .box4, .box5{
+    position: relative;
+    outline: none;
+    overflow: hidden;
+    width: auto;
+    height: 150px;
+    cursor: pointer;
+    background-color: #fff;
+    border-left-width: 8px;
+    border-left-style: solid;
+}
+.box1{
+    border-left-color: #27316e;
+}
+.box2{
+    border-left-color: #00aa63;
+}
+.box3{
+    border-left-color: #57008a;
+}
+.box4{
+    border-left-color: #a10030;
+}
+.box5{
+    border-left-color: #fa0;
+}
